@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		E6A0CD2C1E7857DB00D5EE75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0CD2B1E7857DB00D5EE75 /* AppDelegate.swift */; };
-		E6A0CD2E1E7857DB00D5EE75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0CD2D1E7857DB00D5EE75 /* ViewController.swift */; };
 		E6A0CD311E7857DB00D5EE75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A0CD2F1E7857DB00D5EE75 /* Main.storyboard */; };
 		E6A0CD331E7857DB00D5EE75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A0CD321E7857DB00D5EE75 /* Assets.xcassets */; };
 		E6A0CD361E7857DB00D5EE75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6A0CD341E7857DB00D5EE75 /* LaunchScreen.storyboard */; };
 		E6A0CD411E7857DB00D5EE75 /* tableviewcontroller_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0CD401E7857DB00D5EE75 /* tableviewcontroller_testTests.swift */; };
 		E6A0CD4C1E7857DB00D5EE75 /* tableviewcontroller_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0CD4B1E7857DB00D5EE75 /* tableviewcontroller_testUITests.swift */; };
+		E6A0CD5A1E78587D00D5EE75 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A0CD591E78587D00D5EE75 /* TableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		E6A0CD281E7857DB00D5EE75 /* tableviewcontroller-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tableviewcontroller-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A0CD2B1E7857DB00D5EE75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E6A0CD2D1E7857DB00D5EE75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6A0CD301E7857DB00D5EE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6A0CD321E7857DB00D5EE75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6A0CD351E7857DB00D5EE75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		E6A0CD471E7857DB00D5EE75 /* tableviewcontroller-testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tableviewcontroller-testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A0CD4B1E7857DB00D5EE75 /* tableviewcontroller_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableviewcontroller_testUITests.swift; sourceTree = "<group>"; };
 		E6A0CD4D1E7857DB00D5EE75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6A0CD591E78587D00D5EE75 /* TableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				E6A0CD2B1E7857DB00D5EE75 /* AppDelegate.swift */,
-				E6A0CD2D1E7857DB00D5EE75 /* ViewController.swift */,
 				E6A0CD2F1E7857DB00D5EE75 /* Main.storyboard */,
 				E6A0CD321E7857DB00D5EE75 /* Assets.xcassets */,
 				E6A0CD341E7857DB00D5EE75 /* LaunchScreen.storyboard */,
 				E6A0CD371E7857DB00D5EE75 /* Info.plist */,
+				E6A0CD591E78587D00D5EE75 /* TableVC.swift */,
 			);
 			path = "tableviewcontroller-test";
 			sourceTree = "<group>";
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6A0CD2E1E7857DB00D5EE75 /* ViewController.swift in Sources */,
 				E6A0CD2C1E7857DB00D5EE75 /* AppDelegate.swift in Sources */,
+				E6A0CD5A1E78587D00D5EE75 /* TableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
